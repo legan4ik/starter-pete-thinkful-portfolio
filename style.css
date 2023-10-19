@@ -18,8 +18,39 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hi {
+  display: flex;
+}
+
+.about-hi h3 {
   text-align: center;
 }
+
+.about-hi p {
+  text-align: left;
+}
+
+.about-hi ul {
+  text-align: left;
+}
+
+.portfolio {
+  display: flex;
+}
+
+.portfolio div {
+  margin: 10px;
+}
+
+.portfolio p {
+  font-size: 14px;
+}
+
 
 /* Containers */
 div {
